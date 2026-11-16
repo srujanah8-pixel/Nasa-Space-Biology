@@ -1,0 +1,42 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+node_modules/
+node_modules.zip
+dist/
+.env
+.env.*
+!.env.example
+
+
+# Large original NASA datasets and intermediate files
+data/raw/*.zip
+data/raw/*.idat
+data/raw/GLDS-13_array_normalized_intensities_probe_GLmicroarray.csv
+data/raw/GLDS-13_array_raw_intensities_probe_GLmicroarray.csv
+data/raw/GLDS-13_array_differential_expression_GLmicroarray*.csv
+data/raw/OSD140_methylation_matrix.csv
+data/raw/OSD140_CpG_change_from_baseline.csv
